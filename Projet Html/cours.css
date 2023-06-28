@@ -1,0 +1,114 @@
+/* Styles généraux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("image/pexels-pixabay-414807.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 24px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar li:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Main */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+/* Cours en bref */
+#cours {
+ /* background-color: #f2f2f2;*/
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Ressources complémentaires */
+#ressources ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* Blog */
+#blog {
+  /*background-color: #f9f9f9;*/
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Développement durable */
+#developpement {
+  padding: 20px;
+  background-color: hwb(206 49% 41% / 0.604);
+  border-radius: 8px;
+}
+
+/* Conclusion */
+#conclusion {
+  padding: 20px;
+  background-color: hwb(206 49% 41% / 0.604);
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #333333;
+  color: #ffffff39;
+  padding: 20px;
+  text-align: center;
+}
